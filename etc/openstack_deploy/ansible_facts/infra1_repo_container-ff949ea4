@@ -1,0 +1,378 @@
+{
+    "ansible_all_ipv4_addresses": [
+        "10.18.12.253",
+        "10.0.3.216"
+    ],
+    "ansible_all_ipv6_addresses": [
+        "fe80::216:3eff:fe69:2185",
+        "fe80::216:3eff:fe6d:2f7"
+    ],
+    "ansible_apparmor": {
+        "status": "disabled"
+    },
+    "ansible_architecture": "x86_64",
+    "ansible_bios_date": "09/08/2013",
+    "ansible_bios_version": "P71",
+    "ansible_cmdline": {
+        "BOOT_IMAGE": "/vmlinuz-3.10.0-514.26.2.el7.x86_64",
+        "LANG": "en_US.UTF-8",
+        "crashkernel": "auto",
+        "quiet": true,
+        "rd.lvm.lv": "cl/swap",
+        "rhgb": true,
+        "ro": true,
+        "root": "/dev/mapper/cl-root"
+    },
+    "ansible_date_time": {
+        "date": "2017-10-31",
+        "day": "31",
+        "epoch": "1509467581",
+        "hour": "18",
+        "iso8601": "2017-10-31T16:33:01Z",
+        "iso8601_basic": "20171031T183301842894",
+        "iso8601_basic_short": "20171031T183301",
+        "iso8601_micro": "2017-10-31T16:33:01.843036Z",
+        "minute": "33",
+        "month": "10",
+        "second": "01",
+        "time": "18:33:01",
+        "tz": "EET",
+        "tz_offset": "+0200",
+        "weekday": "Tuesday",
+        "weekday_number": "2",
+        "weeknumber": "44",
+        "year": "2017"
+    },
+    "ansible_default_ipv4": {
+        "address": "10.0.3.216",
+        "alias": "eth0",
+        "broadcast": "10.0.3.255",
+        "gateway": "10.0.3.1",
+        "interface": "eth0",
+        "macaddress": "00:16:3e:6d:02:f7",
+        "mtu": 1500,
+        "netmask": "255.255.255.0",
+        "network": "10.0.3.0",
+        "type": "ether"
+    },
+    "ansible_default_ipv6": {},
+    "ansible_devices": {
+        "sda": {
+            "holders": [],
+            "host": "",
+            "model": "LOGICAL VOLUME",
+            "partitions": {
+                "sda1": {
+                    "holders": [],
+                    "sectors": "2097152",
+                    "sectorsize": 512,
+                    "size": "1.00 GB",
+                    "start": "2048",
+                    "uuid": null
+                },
+                "sda2": {
+                    "holders": [
+                        "cl-root",
+                        "cl-swap",
+                        "cl-home"
+                    ],
+                    "sectors": "583772160",
+                    "sectorsize": 512,
+                    "size": "278.36 GB",
+                    "start": "2099200",
+                    "uuid": null
+                }
+            },
+            "removable": "0",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "deadline",
+            "sectors": "585871964",
+            "sectorsize": "512",
+            "size": "279.37 GB",
+            "support_discard": "0",
+            "vendor": "HP"
+        },
+        "sr0": {
+            "holders": [],
+            "host": "",
+            "model": "DVD RAM UJ8C2",
+            "partitions": {},
+            "removable": "1",
+            "rotational": "1",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "scheduler_mode": "cfq",
+            "sectors": "2097151",
+            "sectorsize": "512",
+            "size": "1024.00 MB",
+            "support_discard": "0",
+            "vendor": "hp"
+        }
+    },
+    "ansible_distribution": "CentOS",
+    "ansible_distribution_major_version": "7",
+    "ansible_distribution_release": "Core",
+    "ansible_distribution_version": "7.4.1708",
+    "ansible_dns": {
+        "nameservers": [
+            "10.0.3.1"
+        ]
+    },
+    "ansible_domain": "",
+    "ansible_effective_group_id": 0,
+    "ansible_effective_user_id": 0,
+    "ansible_env": {
+        "HISTCONTROL": "ignoredups",
+        "HISTSIZE": "1000",
+        "HOME": "/root",
+        "HOSTNAME": "infra1_repo_container-ff949ea4",
+        "LOGNAME": "root",
+        "MAIL": "/var/spool/mail/root",
+        "PATH": "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin",
+        "PWD": "/root",
+        "SHELL": "/bin/bash",
+        "SHLVL": "2",
+        "USER": "root",
+        "XDG_RUNTIME_DIR": "/run/user/0",
+        "XDG_SESSION_ID": "205",
+        "_": "/usr/bin/python"
+    },
+    "ansible_eth0": {
+        "active": true,
+        "device": "eth0",
+        "features": {},
+        "ipv4": {
+            "address": "10.0.3.216",
+            "broadcast": "10.0.3.255",
+            "netmask": "255.255.255.0",
+            "network": "10.0.3.0"
+        },
+        "ipv6": [
+            {
+                "address": "fe80::216:3eff:fe6d:2f7",
+                "prefix": "64",
+                "scope": "link"
+            }
+        ],
+        "macaddress": "00:16:3e:6d:02:f7",
+        "mtu": 1500,
+        "promisc": false,
+        "speed": 10000,
+        "type": "ether"
+    },
+    "ansible_eth1": {
+        "active": true,
+        "device": "eth1",
+        "features": {},
+        "ipv4": {
+            "address": "10.18.12.253",
+            "broadcast": "10.18.12.255",
+            "netmask": "255.255.255.0",
+            "network": "10.18.12.0"
+        },
+        "ipv6": [
+            {
+                "address": "fe80::216:3eff:fe69:2185",
+                "prefix": "64",
+                "scope": "link"
+            }
+        ],
+        "macaddress": "00:16:3e:69:21:85",
+        "mtu": 1500,
+        "promisc": false,
+        "speed": 10000,
+        "type": "ether"
+    },
+    "ansible_fips": false,
+    "ansible_form_factor": "Rack Mount Chassis",
+    "ansible_fqdn": "localhost",
+    "ansible_gather_subset": [
+        "hardware",
+        "network",
+        "virtual"
+    ],
+    "ansible_hostname": "infra1_repo_container-ff949ea4",
+    "ansible_interfaces": [
+        "lo",
+        "eth1",
+        "eth0"
+    ],
+    "ansible_kernel": "3.10.0-514.26.2.el7.x86_64",
+    "ansible_lo": {
+        "active": true,
+        "device": "lo",
+        "features": {},
+        "ipv4": {
+            "address": "127.0.0.1",
+            "broadcast": "host",
+            "netmask": "255.0.0.0",
+            "network": "127.0.0.0"
+        },
+        "ipv6": [
+            {
+                "address": "::1",
+                "prefix": "128",
+                "scope": "host"
+            }
+        ],
+        "mtu": 65536,
+        "promisc": false,
+        "type": "loopback"
+    },
+    "ansible_machine": "x86_64",
+    "ansible_machine_id": "2a6307960cd8453a9349266ebd24961d",
+    "ansible_memfree_mb": 19981,
+    "ansible_memory_mb": {
+        "nocache": {
+            "free": 30136,
+            "used": 1836
+        },
+        "real": {
+            "free": 19981,
+            "total": 31972,
+            "used": 11991
+        },
+        "swap": {
+            "cached": 0,
+            "free": 16127,
+            "total": 16127,
+            "used": 0
+        }
+    },
+    "ansible_memtotal_mb": 31972,
+    "ansible_mounts": [
+        {
+            "device": "/dev/mapper/cl-root",
+            "fstype": "xfs",
+            "mount": "/",
+            "options": "rw,seclabel,relatime,attr2,inode64,logbsize=256k,sunit=512,swidth=512,noquota,bind",
+            "size_available": 43549331456,
+            "size_total": 53656682496,
+            "uuid": "N/A"
+        },
+        {
+            "device": "/dev/mapper/cl-root",
+            "fstype": "xfs",
+            "mount": "/var/backup",
+            "options": "rw,seclabel,relatime,attr2,inode64,logbsize=256k,sunit=512,swidth=512,noquota,bind",
+            "size_available": 43549331456,
+            "size_total": 53656682496,
+            "uuid": "N/A"
+        }
+    ],
+    "ansible_nodename": "infra1_repo_container-ff949ea4",
+    "ansible_os_family": "RedHat",
+    "ansible_pkg_mgr": "yum",
+    "ansible_processor": [
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) CPU E5-2620 0 @ 2.00GHz"
+    ],
+    "ansible_processor_cores": 6,
+    "ansible_processor_count": 1,
+    "ansible_processor_threads_per_core": 2,
+    "ansible_processor_vcpus": 12,
+    "ansible_product_name": "ProLiant DL360p Gen8",
+    "ansible_product_serial": "CZJ34001SD",
+    "ansible_product_uuid": "36303736-3034-5A43-4A33-343030315344",
+    "ansible_product_version": "NA",
+    "ansible_python": {
+        "executable": "/usr/bin/python",
+        "has_sslcontext": true,
+        "type": "CPython",
+        "version": {
+            "major": 2,
+            "micro": 5,
+            "minor": 7,
+            "releaselevel": "final",
+            "serial": 0
+        },
+        "version_info": [
+            2,
+            7,
+            5,
+            "final",
+            0
+        ]
+    },
+    "ansible_python_version": "2.7.5",
+    "ansible_real_group_id": 0,
+    "ansible_real_user_id": 0,
+    "ansible_selinux": false,
+    "ansible_service_mgr": "systemd",
+    "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLSWISMetdczCceXMuf+2srONcbVRTZn/fWlTW6jJDThEyN7bFjoGKj6ySDqa3ZbafeFM9KLp6jO5VNzFFgN2mY=",
+    "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIEmvl7AmAKCtOPkYi0J9R6HgIro6Ad6mX1hClvLqnj09",
+    "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDjOqtWJ2whyLHMKWqlcoZvOpMA0aYFnuMy5yejq30TxZHCNOk5ZFaRHegHBvTo2jp59aq6LVPNphdPb5XDLh32181Ojt7wdpV5aUNPe7yoOmjzIbcvFCrJQpeD5gh62Ig4Nth/CNXWPuwu8C/LPvY7hC5q/JtiJYTADIB+kYdIiflcwaoYf2b56F6o+66emM6fCUq2p7tKMCDgK90A9sSyMH8hZoAt+dwcUlTaSV/Fug2wZSII9l8XFjf0v0k7DTCCJqy3Sn1gRBPsRoyBdDEezZPrc1WzJZqZoUHTpuDXm9wCF/aTwSAJv7/gG2GHmU6HHmJg2/1MLJGlW1QYJAqP",
+    "ansible_swapfree_mb": 16127,
+    "ansible_swaptotal_mb": 16127,
+    "ansible_system": "Linux",
+    "ansible_system_capabilities": [
+        "cap_chown",
+        "cap_dac_override",
+        "cap_dac_read_search",
+        "cap_fowner",
+        "cap_fsetid",
+        "cap_kill",
+        "cap_setgid",
+        "cap_setuid",
+        "cap_setpcap",
+        "cap_linux_immutable",
+        "cap_net_bind_service",
+        "cap_net_broadcast",
+        "cap_net_admin",
+        "cap_net_raw",
+        "cap_ipc_lock",
+        "cap_ipc_owner",
+        "cap_sys_chroot",
+        "cap_sys_ptrace",
+        "cap_sys_admin",
+        "cap_sys_boot",
+        "cap_sys_resource",
+        "cap_sys_tty_config",
+        "cap_mknod",
+        "cap_lease",
+        "cap_audit_write",
+        "cap_audit_control",
+        "cap_setfcap",
+        "cap_syslog",
+        "35",
+        "36+ep"
+    ],
+    "ansible_system_capabilities_enforced": "True",
+    "ansible_system_vendor": "HP",
+    "ansible_uptime_seconds": 32504,
+    "ansible_user_dir": "/root",
+    "ansible_user_gecos": "root",
+    "ansible_user_gid": 0,
+    "ansible_user_id": "root",
+    "ansible_user_shell": "/bin/bash",
+    "ansible_user_uid": 0,
+    "ansible_userspace_architecture": "x86_64",
+    "ansible_userspace_bits": "64",
+    "ansible_virtualization_role": "guest",
+    "ansible_virtualization_type": "lxc",
+    "module_setup": true
+}

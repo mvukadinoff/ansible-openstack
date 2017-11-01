@@ -1,0 +1,15 @@
+{
+    "ansible_local": {
+        "mac": {
+            "infra2_neutron_agents_container-8ed2c6c6": {
+                "eth1": "00:16:3e:13:5f:45",
+                "eth10": "00:16:3e:55:de:3c",
+                "eth11": "00:16:3e:42:a5:df",
+                "eth12": "00:16:3e:f2:97:48"
+            },
+            "infra2_rabbit_mq_container-5fe04ea3": {
+                "eth1": "00:16:3e:c1:f2:f2"
+            }
+        }
+    }
+}
